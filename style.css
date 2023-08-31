@@ -1,0 +1,86 @@
+body {
+    background-color: #393E46;
+}
+.heading1 h1 {
+    font-family: 'Lobster', cursive;
+    color: #4ECCA3;
+    font-size: 100px;
+    text-align:center;   
+    margin-bottom: 10px; 
+    position: relative;
+    left: 25px;
+    text-shadow: 0px 0px 150px #68ffcd;
+}
+#result {
+    font-family: 'Lobster', cursive;
+    text-align:center; 
+    color: orange;
+    font-size: 64px;  
+    position: relative;
+    left: 65px;
+    text-shadow: 0px 0px 15px rgb(255, 216, 145);
+
+
+
+
+
+}
+.dice img {
+    margin-left: 30%;
+    height: 350px;
+    margin-bottom: 10%; 
+    margin-top: 25px;
+    box-shadow: 0px 0px 55px 15px rgb(255, 17, 0);
+    animation-name: images;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes images {
+    0% {
+        box-shadow: 0px 0px 55px 15px rgb(255, 17, 0);
+
+    }
+    50% {
+        box-shadow: 0px 0px 55px 30px rgb(255, 17, 0);
+ 
+    }
+    100% {
+        box-shadow: 0px 0px 55px 5px rgb(255, 17, 0);
+
+        
+    }
+    
+}
+.player h3 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 48px;
+    color: #4ECCA3;
+    text-align: center;
+    margin-left: 7%;
+    text-shadow: 0px 0px 15px rgb(93, 255, 78);
+
+}
+footer {
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    color:red;
+    text-align: center;
+    margin-top: 10%;
+    text-shadow: 0px 0px 50px rgb(255, 152, 145);
+
+
+
+}
+.winner img {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    left: 0px;
+
+}
+#body {
+    background-image: url();
+    background-size: 35%;
+}
+
